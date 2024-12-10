@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <div class="roose47"></div>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Listings</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-900 text-gray-200">
+    <div class="container mx-auto p-6">
+      <h1 class="text-4xl font-bold mb-6 text-center">Job Listings</h1>
+      <form id="search-form" class="mb-6">
+        <input
+          type="text"
+          id="search-query"
+          class="w-full p-2 mb-4 text-gray-900"
+          placeholder="Enter job title or keywords"
+        />
+        <input
+          type="number"
+          id="num-pages"
+          class="w-full p-2 mb-4 text-gray-900"
+          placeholder="Number of pages"
+        />
+        <select id="date-posted" class="w-full p-2 mb-4 text-gray-900">
+          <option value="all">All</option>
+          <option value="today">Today</option>
+          <option value="3days">Last 3 days</option>
+          <option value="week">Last week</option>
+          <option value="month">Last month</option>
+        </select>
+        <button
+          type="submit"
+          class="w-full p-2 bg-blue-500 text-white rounded-lg"
+        >
+          Search
+        </button>
+      </form>
+      <button
+        id="save-button"
+        class="w-full p-2 bg-green-500 text-white rounded-lg mb-6"
+      >
+        Save Search
+      </button>
+      <div
+        id="search-summary"
+        class="bg-gray-800 p-6 rounded-lg shadow-lg mb-6"
+      ></div>
+      <div id="total-jobs" class="text-xl mb-4"></div>
+      <div id="job-listings" class="space-y-6"></div>
+      <h2 class="text-2xl font-semibold mb-4">Saved Searches</h2>
+      <ul id="saved-searches" class="space-y-2"></ul>
+    </div>
+
+    <script>
+      document
+        .getElementById("search-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          const query = document.getElementById("search-query").value;
+          const numPages = document.getElementById("num-pages").value || "1";
+          const datePosted = document.getElementById("date-posted").value;
+
+          fetch(
+            `/search?query=${encodeURIComponent(
+              query
+            )}&num_pages=${numPages}&date_posted=${datePosted}`
+          )
+            .then((response) => response.json())
+            .then((data) => {
+              const searchSummary = document.getElementById("search-summary");
+              const totalJobs = document.getElementById("total-jobs");
+              const jobListings = document.getElementById("job-listings");
+
+              const parameters = data.parameters;
+              searchSummary.innerHTML = `
+              <h2 class="text-2xl font-semibold mb-4">Search Summary</h2>
+              <p><strong>Query:</strong> ${parameters.query}</p>
+              <p><strong>Page:</strong> ${parameters.page}</p>
+              <p><strong>Number of Pages:</strong> ${parameters.num_pages}</p>
+              <p><strong>Date Posted:</strong> ${parameters.date_posted}</p>
+              <p><strong>Country:</strong> ${parameters.country.toUpperCase()}</p>
+              <p><strong>Language:</strong> ${parameters.language.toUpperCase()}</p>
+            `;
+
+              totalJobs.textContent = `Total Jobs Found: ${data.data.length}`;
+
+              jobListings.innerHTML = "";
+              data.data.forEach((job, index) => {
+                const jobDiv = document.createElement("div");
+                jobDiv.className = "bg-gray-800 p-6 rounded-lg shadow-lg";
+
+                const jobNumber = document.createElement("div");
+                jobNumber.className = "text-lg mb-2";
+                jobNumber.innerHTML = `<strong>Job #${index + 1}</strong>`;
+                jobDiv.appendChild(jobNumber);
+
+                const jobTitle = document.createElement("div");
+                jobTitle.className = "text-2xl font-bold mb-2";
+                jobTitle.textContent = job.job_title;
+                jobDiv.appendChild(jobTitle);
+
+                const employerLogo = document.createElement("img");
+                employerLogo.className = "w-24 h-24 mb-4";
+                employerLogo.src = job.employer_logo;
+                employerLogo.alt = `${job.employer_name} logo`;
+                jobDiv.appendChild(employerLogo);
+
+                const employerName = document.createElement("div");
+                employerName.className = "text-lg mb-2";
+                employerName.innerHTML = `<strong>Employer:</strong> ${job.employer_name} <a href="${job.employer_website}" target="_blank" class="text-blue-500 underline">Website</a>`;
+                jobDiv.appendChild(employerName);
+
+                const jobLocation = document.createElement("div");
+                jobLocation.className = "text-lg mb-2";
+                jobLocation.innerHTML = `<strong>Location:</strong> ${job.job_location}`;
+                jobDiv.appendChild(jobLocation);
+
+                const jobPostedAt = document.createElement("div");
+                jobPostedAt.className = "text-lg mb-2";
+                jobPostedAt.innerHTML = `<strong>Posted At:</strong> ${job.job_posted_at}`;
+                jobDiv.appendChild(jobPostedAt);
+
+                const jobDescription = document.createElement("div");
+                jobDescription.className = "text-lg mb-4";
+                const descriptionWords = job.job_description.split(" ");
+                const shortDescription = descriptionWords
+                  .slice(0, 100)
+                  .join(" ");
+                jobDescription.textContent =
+                  shortDescription +
+                  (descriptionWords.length > 100 ? "..." : "");
+                jobDiv.appendChild(jobDescription);
+
+                if (descriptionWords.length > 100) {
+                  const seeMore = document.createElement("span");
+                  seeMore.className = "text-blue-500 cursor-pointer underline";
+                  seeMore.textContent = "See More";
+                  seeMore.onclick = () => {
+                    jobDescription.textContent = job.job_description;
+                    seeMore.style.display = "none";
+                  };
+                  jobDiv.appendChild(seeMore);
+                }
+
+                const applyLinks = document.createElement("div");
+                applyLinks.className = "text-lg mt-4";
+                applyLinks.innerHTML = `<strong>Apply Links:</strong>`;
+                job.apply_options.forEach((option) => {
+                  const applyLink = document.createElement("a");
+                  applyLink.href = option.apply_link;
+                  applyLink.target = "_blank";
+                  applyLink.textContent = `${option.publisher}`;
+                  applyLink.className = "block text-blue-500 underline";
+                  applyLinks.appendChild(applyLink);
+                });
+                jobDiv.appendChild(applyLinks);
+
+                jobListings.appendChild(jobDiv);
+              });
+            })
+            .catch((error) => console.error("Error fetching data:", error));
+        });
+
+      document.getElementById("save-button").addEventListener("click", () => {
+        fetch("/save", { method: "POST" })
+          .then((response) => response.json())
+          .then((data) => {
+            alert(
+              `Search data saved successfully with timestamp: ${data.timestamp}`
+            );
+            loadSavedSearches();
+          })
+          .catch((error) => console.error("Error saving search data:", error));
+      });
+
+      function loadSavedSearches() {
+        fetch("/saved-searches")
+          .then((response) => response.json())
+          .then((data) => {
+            const savedSearches = document.getElementById("saved-searches");
+            savedSearches.innerHTML = "";
+            data.forEach((search) => {
+              const li = document.createElement("li");
+              li.className = "bg-gray-800 p-2 rounded-lg shadow-lg";
+              li.innerHTML = `
+                <span>${search.timestamp}</span>
+                <button
+                  class="ml-4 p-2 bg-blue-500 text-white rounded-lg"
+                  onclick="loadSearch('${search.timestamp}')"
+                >
+                  Load
+                </button>
+              `;
+              savedSearches.appendChild(li);
+            });
+          })
+          .catch((error) =>
+            console.error("Error loading saved searches:", error)
+          );
+      }
+
+      window.loadSearch = function (timestamp) {
+        fetch(`/load-search?timestamp=${timestamp}`)
+          .then((response) => response.json())
+          .then((data) => {
+            const searchSummary = document.getElementById("search-summary");
+            const totalJobs = document.getElementById("total-jobs");
+            const jobListings = document.getElementById("job-listings");
+
+            const parameters = data.parameters;
+            searchSummary.innerHTML = `
+              <h2 class="text-2xl font-semibold mb-4">Search Summary</h2>
+              <p><strong>Query:</strong> ${parameters.query}</p>
+              <p><strong>Page:</strong> ${parameters.page}</p>
+              <p><strong>Number of Pages:</strong> ${parameters.num_pages}</p>
+              <p><strong>Date Posted:</strong> ${parameters.date_posted}</p>
+              <p><strong>Country:</strong> ${parameters.country.toUpperCase()}</p>
+              <p><strong>Language:</strong> ${parameters.language.toUpperCase()}</p>
+            `;
+
+            totalJobs.textContent = `Total Jobs Found: ${data.data.length}`;
+
+            jobListings.innerHTML = "";
+            data.data.forEach((job, index) => {
+              const jobDiv = document.createElement("div");
+              jobDiv.className = "bg-gray-800 p-6 rounded-lg shadow-lg";
+
+              const jobNumber = document.createElement("div");
+              jobNumber.className = "text-lg mb-2";
+              jobNumber.innerHTML = `<strong>Job #${index + 1}</strong>`;
+              jobDiv.appendChild(jobNumber);
+
+              const jobTitle = document.createElement("div");
+              jobTitle.className = "text-2xl font-bold mb-2";
+              jobTitle.textContent = job.job_title;
+              jobDiv.appendChild(jobTitle);
+
+              const employerLogo = document.createElement("img");
+              employerLogo.className = "w-24 h-24 mb-4";
+              employerLogo.src = job.employer_logo;
+              employerLogo.alt = `${job.employer_name} logo`;
+              jobDiv.appendChild(employerLogo);
+
+              const employerName = document.createElement("div");
+              employerName.className = "text-lg mb-2";
+              employerName.innerHTML = `<strong>Employer:</strong> ${job.employer_name} <a href="${job.employer_website}" target="_blank" class="text-blue-500 underline">Website</a>`;
+              jobDiv.appendChild(employerName);
+
+              const jobLocation = document.createElement("div");
+              jobLocation.className = "text-lg mb-2";
+              jobLocation.innerHTML = `<strong>Location:</strong> ${job.job_location}`;
+              jobDiv.appendChild(jobLocation);
+
+              const jobPostedAt = document.createElement("div");
+              jobPostedAt.className = "text-lg mb-2";
+              jobPostedAt.innerHTML = `<strong>Posted At:</strong> ${job.job_posted_at}`;
+              jobDiv.appendChild(jobPostedAt);
+
+              const jobDescription = document.createElement("div");
+              jobDescription.className = "text-lg mb-4";
+              const descriptionWords = job.job_description.split(" ");
+              const shortDescription = descriptionWords.slice(0, 100).join(" ");
+              jobDescription.textContent =
+                shortDescription + (descriptionWords.length > 100 ? "..." : "");
+              jobDiv.appendChild(jobDescription);
+
+              if (descriptionWords.length > 100) {
+                const seeMore = document.createElement("span");
+                seeMore.className = "text-blue-500 cursor-pointer underline";
+                seeMore.textContent = "See More";
+                seeMore.onclick = () => {
+                  jobDescription.textContent = job.job_description;
+                  seeMore.style.display = "none";
+                };
+                jobDiv.appendChild(seeMore);
+              }
+
+              const applyLinks = document.createElement("div");
+              applyLinks.className = "text-lg mt-4";
+              applyLinks.innerHTML = `<strong>Apply Links:</strong>`;
+              job.apply_options.forEach((option) => {
+                const applyLink = document.createElement("a");
+                applyLink.href = option.apply_link;
+                applyLink.target = "_blank";
+                applyLink.textContent = `${option.publisher}`;
+                applyLink.className = "block text-blue-500 underline";
+                applyLinks.appendChild(applyLink);
+              });
+              jobDiv.appendChild(applyLinks);
+
+              jobListings.appendChild(jobDiv);
+            });
+          })
+          .catch((error) => console.error("Error loading search data:", error));
+      };
+
+      // Initial fetch to load default data
+      fetch("/data")
+        .then((response) => response.json())
+        .then((data) => {
+          const searchSummary = document.getElementById("search-summary");
+          const totalJobs = document.getElementById("total-jobs");
+          const jobListings = document.getElementById("job-listings");
+
+          const parameters = data.parameters;
+          searchSummary.innerHTML = `
+            <h2 class="text-2xl font-semibold mb-4">Search Summary</h2>
+            <p><strong>Query:</strong> ${parameters.query}</p>
+            <p><strong>Page:</strong> ${parameters.page}</p>
+            <p><strong>Number of Pages:</strong> ${parameters.num_pages}</p>
+            <p><strong>Date Posted:</strong> ${parameters.date_posted}</p>
+            <p><strong>Country:</strong> ${parameters.country.toUpperCase()}</p>
+            <p><strong>Language:</strong> ${parameters.language.toUpperCase()}</p>
+          `;
+
+          totalJobs.textContent = `Total Jobs Found: ${data.data.length}`;
+
+          data.data.forEach((job, index) => {
+            const jobDiv = document.createElement("div");
+            jobDiv.className = "bg-gray-800 p-6 rounded-lg shadow-lg";
+
+            const jobNumber = document.createElement("div");
+            jobNumber.className = "text-lg mb-2";
+            jobNumber.innerHTML = `<strong>Job #${index + 1}</strong>`;
+            jobDiv.appendChild(jobNumber);
+
+            const jobTitle = document.createElement("div");
+            jobTitle.className = "text-2xl font-bold mb-2";
+            jobTitle.textContent = job.job_title;
+            jobDiv.appendChild(jobTitle);
+
+            const employerLogo = document.createElement("img");
+            employerLogo.className = "w-24 h-24 mb-4";
+            employerLogo.src = job.employer_logo;
+            employerLogo.alt = `${job.employer_name} logo`;
+            jobDiv.appendChild(employerLogo);
+
+            const employerName = document.createElement("div");
+            employerName.className = "text-lg mb-2";
+            employerName.innerHTML = `<strong>Employer:</strong> ${job.employer_name} <a href="${job.employer_website}" target="_blank" class="text-blue-500 underline">Website</a>`;
+            jobDiv.appendChild(employerName);
+
+            const jobLocation = document.createElement("div");
+            jobLocation.className = "text-lg mb-2";
+            jobLocation.innerHTML = `<strong>Location:</strong> ${job.job_location}`;
+            jobDiv.appendChild(jobLocation);
+
+            const jobPostedAt = document.createElement("div");
+            jobPostedAt.className = "text-lg mb-2";
+            jobPostedAt.innerHTML = `<strong>Posted At:</strong> ${job.job_posted_at}`;
+            jobDiv.appendChild(jobPostedAt);
+
+            const jobDescription = document.createElement("div");
+            jobDescription.className = "text-lg mb-4";
+            const descriptionWords = job.job_description.split(" ");
+            const shortDescription = descriptionWords.slice(0, 100).join(" ");
+            jobDescription.textContent =
+              shortDescription + (descriptionWords.length > 100 ? "..." : "");
+            jobDiv.appendChild(jobDescription);
+
+            if (descriptionWords.length > 100) {
+              const seeMore = document.createElement("span");
+              seeMore.className = "text-blue-500 cursor-pointer underline";
+              seeMore.textContent = "See More";
+              seeMore.onclick = () => {
+                jobDescription.textContent = job.job_description;
+                seeMore.style.display = "none";
+              };
+              jobDiv.appendChild(seeMore);
+            }
+
+            const applyLinks = document.createElement("div");
+            applyLinks.className = "text-lg mt-4";
+            applyLinks.innerHTML = `<strong>Apply Links:</strong>`;
+            job.apply_options.forEach((option) => {
+              const applyLink = document.createElement("a");
+              applyLink.href = option.apply_link;
+              applyLink.target = "_blank";
+              applyLink.textContent = `${option.publisher}`;
+              applyLink.className = "block text-blue-500 underline";
+              applyLinks.appendChild(applyLink);
+            });
+            jobDiv.appendChild(applyLinks);
+
+            jobListings.appendChild(jobDiv);
+          });
+        })
+        .catch((error) => console.error("Error fetching data:", error));
+
+      // Load saved searches on page load
+      loadSavedSearches();
+    </script>
+  </body>
+</html>

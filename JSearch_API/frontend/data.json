@@ -1,0 +1,605 @@
+{
+    "status": "OK",
+    "request_id": "9689ecde-906e-463a-966d-c391ba64ac52",
+    "parameters": {
+        "query": "software intern jobs in canada",
+        "page": 1,
+        "num_pages": 1,
+        "date_posted": "week",
+        "country": "ca",
+        "language": "en"
+    },
+    "data": [
+        {
+            "job_id": "gPGIPQZt6O2iIkl0AAAAAA==",
+            "job_title": "Full-Stack Software Developer Intern",
+            "employer_name": "Netverge Services LTD",
+            "employer_logo": null,
+            "employer_website": "https://www.netverge.com",
+            "job_publisher": "Indeed",
+            "job_employment_type": "Full-time",
+            "job_employment_types": [
+                "FULLTIME"
+            ],
+            "job_apply_link": "https://ca.indeed.com/viewjob?jk=c34e7646564e534d&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+            "job_apply_is_direct": true,
+            "apply_options": [
+                {
+                    "publisher": "Indeed",
+                    "apply_link": "https://ca.indeed.com/viewjob?jk=c34e7646564e534d&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": true
+                },
+                {
+                    "publisher": "Glassdoor",
+                    "apply_link": "https://fr.glassdoor.ca/job-listing/full-stack-software-developer-intern-netverge-services-ltd-JV_IC3708260_KO0,36_KE37,58.htm?jl=1009558546557&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": true
+                },
+                {
+                    "publisher": "SimplyHired",
+                    "apply_link": "https://www.simplyhired.ca/job/PVxpuwDgZ0gCPvsjytyga04pUUwz0rsX8addDA6k8uE0HzdCjXnMmQ?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                }
+            ],
+            "job_description": "Join Netverge Services as a Full-Stack Software Developer Intern!\n\nAre you passionate about software development and eager to make a real impact in the Managed Service Provider (MSP) industry? Netverge Services is seeking a motivated Full-Stack Software Developer Intern to join our team in Coquitlam, BC.\n\nAbout Us\n\nAt Netverge Services, we offer comprehensive solutions tailored for the MSP industry. Our platform integrates various software tools into a single operations center, centralizing operations for MSPs. Our AI force enhances team performance, boosts efficiency, and helps MSPs stay ahead in the AI revolution.\n\nRole Overview\n\nAs a Full-Stack Software Developer Intern, you\u2019ll dive into back-end web development, software programming, and object-oriented programming (OOP) projects. This is a fantastic opportunity to gain hands-on experience in a supportive and innovative environment.\n\nWhat You\u2019ll Do\n\u2022 Collaborate: Work with our development team to design and implement Python and Django software solutions.\n\u2022 Develop: Participate in web development projects focusing on front-end technologies like React and integrating with PostgreSQL databases.\n\u2022 Code Quality: Write and maintain clean, efficient code following Agile methodologies.\n\u2022 Database Management: Assist with managing databases to ensure data integrity and performance.\n\u2022 Teamwork: Engage in code reviews and maintain version control using GitHub.\n\nWho You Are\n\nWe\u2019re looking for someone passionate and dedicated, even if you\u2019re just starting out. If you have a strong desire to learn and grow, we want to hear from you!\n\nSkills & Knowledge:\n\u2022 Basic understanding of computer science and software development principles.\n\u2022 Familiarity with React and Next.js is a plus.\n\u2022 Proficiency in Python and the Django framework.\n\u2022 Understanding of PostgreSQL or other relational databases.\n\u2022 Strong problem-solving and analytical skills.\n\nPersonal Traits:\n\u2022 Self-motivated with excellent self-discipline.\n\u2022 Ability to work independently and as part of a team.\n\u2022 Demonstrated initiative through personal projects or previous work.\n\nEducation:\n\u2022 Recent graduate in Computer Science, Software Engineering, or a related field.\n\nWhy Apply?\n\u2022 Hands-On Experience: Gain valuable experience working on real projects that make a difference.\n\u2022 Supportive Team: Join a team that values your growth and encourages continuous learning.\n\u2022 Innovative Environment: Be part of a company at the forefront of integrating AI into MSP operations.\n\nHow to Apply\n\nTo ensure we receive applications from dedicated and passionate individuals, please include a demo application or a project you\u2019re proud of with your resume. This will help us understand your skills and commitment.\n\nAdditional Details\n\u2022 Location: On-site in Coquitlam, BC. Applicants must reside in the Greater Vancouver Area\n\u2022 Job Type: Full-time / Internship\n\u2022 Duration: 6 months\n\u2022 Pay: $17.40 - $25.00 per hour\n\u2022 Hours: 37.5 hours per week, Monday to Friday\n\u2022 Work Permit: Must have the necessary permits to work full-time in Canada.\n\nReady to Make an Impact?\n\nIf you\u2019re excited about developing innovative solutions and eager to grow your skills in a dynamic environment, apply today! Show us your passion and let\u2019s build the future together.\n\nJob Type: Full-time\n\nPay: $17.40-$25.00 per hour\n\nExpected hours: 37.5 per week\n\nAdditional pay:\n\u2022 Overtime pay\n\nBenefits:\n\u2022 Paid time off\n\nSchedule:\n\u2022 Monday to Friday\n\nAbility to commute/relocate:\n\u2022 Coquitlam, BC V3B 6B4: reliably commute or plan to relocate before starting work (required)\n\nEducation:\n\u2022 Secondary School (preferred)\n\nExperience:\n\u2022 Python: 1 year (required)\n\u2022 HTML/CSS: 1 year (required)\n\nWork Location: In person\n\nExpected start date: 2025-01-06",
+            "job_is_remote": false,
+            "job_posted_at": "8 hours ago",
+            "job_posted_at_timestamp": 1733767200,
+            "job_posted_at_datetime_utc": "2024-12-09T18:00:00.000Z",
+            "job_location": "Coquitlam, BC",
+            "job_city": "Coquitlam",
+            "job_state": "British Columbia",
+            "job_country": "CA",
+            "job_latitude": 49.283762599999996,
+            "job_longitude": -122.7932065,
+            "job_benefits": null,
+            "job_google_link": "https://www.google.com/search?q=jobs&gl=ca&hl=en&udm=8#vhid=vt%3D20/docid%3DgPGIPQZt6O2iIkl0AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+            "job_min_salary": null,
+            "job_max_salary": null,
+            "job_salary_period": "HOUR",
+            "job_highlights": {},
+            "job_onet_soc": "15113300",
+            "job_onet_job_zone": "4"
+        },
+        {
+            "job_id": "e6q0kWcQr2KIEanJAAAAAA==",
+            "job_title": "Embedded Software Developer Intern",
+            "employer_name": "Stryten Energy",
+            "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR_I2_CH5sxSSoaK8Ob9FY8zZ6vWanTFD8IQTv&s=0",
+            "employer_website": "https://www.stryten.com",
+            "job_publisher": "LinkedIn",
+            "job_employment_type": "Internship",
+            "job_employment_types": [
+                "INTERN"
+            ],
+            "job_apply_link": "https://ca.linkedin.com/jobs/view/embedded-software-developer-intern-at-stryten-energy-4091549902?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+            "job_apply_is_direct": false,
+            "apply_options": [
+                {
+                    "publisher": "LinkedIn",
+                    "apply_link": "https://ca.linkedin.com/jobs/view/embedded-software-developer-intern-at-stryten-energy-4091549902?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Workopolis",
+                    "apply_link": "https://www.workopolis.com/jobsearch/viewjob/ZFb0WRz3Ot2dHqJ0j3wThhg286f0x4bpoEZFHD6_rta8QXlVIEstXrbEDEM2N9bx?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "SimplyHired",
+                    "apply_link": "https://fr.simplyhired.ca/job/M6oT3mzE3M7-sBsn3CpzKi0R3V6gUgUze9kuYkO__u56pOea4CCDOA?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                }
+            ],
+            "job_description": "Overview\n\nWe are looking for an intern to start January 2025. Priority will be given to those who can start immediately.\n\nOur Stryten facility in Ottawa is working with cutting edge Lithium Battery technology for military applications. You will work with a team that understands advanced combat vehicle power integrations using smart power management solutions for the military market.\n\nThe Embedded Software Developer Intern will perform software engineering tasks including requirements development, design, code, testing, verification and integration of embedded real-time software. The candidate will perform assignments in conjunction with other software and system team members utilizing formal standards processes and documentation.\n\nResponsibilities\n\u2022 Carry out full software development life-cycle for safety-critical systems: planning, development, testing, and (if necessary) certification of embedded software.\n\u2022 Provide input on overall product design and architectural design of embedded software.\n\u2022 Design and oversee project plans, specifications, and other important documentation required for compliance with industry regulations.\n\u2022 Prepare for and conduct peer reviews of software design materials, code, test cases and procedures.\n\u2022 Provide support for production activities.\n\u2022 Interface directly with customers and third parties.\n\nQualifications\n\u2022 Working towards University degree in Computer Science or Electrical Engineering\n\u2022 Must be eligible to work in Canada either as a Canadian Citizen or Permanent Resident and be eligible for Canadian Controlled Goods certification\n\u2022 C embedded programming skills\n\u2022 Ability to write technical documents such as System Specifications, Software Requirements, Test Procedures, and User Manuals is a plus\n\u2022 Use of standard design tools for software development.\n\u2022 Usage of embedded development tool-chains including compilers, linkers, debuggers and static analysis tools is a plus\n\u2022 Experience with software configuration management tools is a plus\n\u2022 Proficiency in English (written and oral).\n\u2022 You will likely get exposure to or have experiences with the below:\n\u2022 Lithium battery technology\n\u2022 Battery Management Systems\n\u2022 Processors: TI MSP430 & XMC family\n\u2022 IDE/Tool Suites: IAR Embedded Workbench, GiTLab\n\u2022 Embedded OS: Salvo, Linux, WinCE, FreeRTOS\n\u2022 Communication protocols and drivers: J1939, CANOpen, SMBus, USB, SPI, I2C, UART\n\u2022 Other languages Eg: Python, JAVA, C# for PC GUI rapid prototyping\n\u2022 USB Software development experience\n\u2022 Testing Automation\n\u2022 Code Version Control: SVN, GIT\n\u2022 Bug Tracking: Jira\n\nWORK ENVIRONMENT (include physical requirements)\n\u2022 Office base and manufacturing environment.\n\u2022 Some travel may be required between Stryten facilities.\n\nMust be eligible to work in Canada either as a Canadian Citizen or Permanent Resident and be eligible for Canadian Controlled Goods certification.\n\nEEO\n\nStryten Energy helps solve the world\u2019s most pressing energy challenges with a broad range of energy storage solutions across the Essential Power, Motive Power, Transportation, Military and Government sectors. Headquartered in Alpharetta, Georgia, we partner with some of the world\u2019s most recognized companies to meet the growing demand for reliable and sustainable energy storage capacity. Stryten powers everything from submarines to subcompacts, microgrids, warehouses, distribution centers, cars, trains and trucks. Our stored energy technologies include advanced lead, lithium and vanadium redox flow batteries, intelligent chargers and energy performance management software that keep people on the move and supply chains running. An industry leader backed by more than a century of expertise, Stryten has The Energy to Challenge the status quo and deliver top-performing energy solutions for today and tomorrow. Learn more at stryten.com.\n\nAbout Our Company\n\nStryten Energy is an equal opportunity employer where an applicant's qualifications are considered without regard to race, color, religion, sex, national origin, age, disability, veteran status, genetic information, sexual orientation, gender identity or expression, or any other basis prohibited by law.",
+            "job_is_remote": false,
+            "job_posted_at": "4 days ago",
+            "job_posted_at_timestamp": 1733443200,
+            "job_posted_at_datetime_utc": "2024-12-06T00:00:00.000Z",
+            "job_location": "Ontario",
+            "job_city": null,
+            "job_state": "Ontario",
+            "job_country": "CA",
+            "job_latitude": 51.253775,
+            "job_longitude": -85.323214,
+            "job_benefits": null,
+            "job_google_link": "https://www.google.com/search?q=jobs&gl=ca&hl=en&udm=8#vhid=vt%3D20/docid%3De6q0kWcQr2KIEanJAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+            "job_salary": null,
+            "job_min_salary": null,
+            "job_max_salary": null,
+            "job_salary_period": null,
+            "job_highlights": {},
+            "job_onet_soc": "15113300",
+            "job_onet_job_zone": "4"
+        },
+        {
+            "job_id": "cgbupGtngu78eKQ3AAAAAA==",
+            "job_title": "Software Development Assistant \u2013 Intern/Student",
+            "employer_name": "FUJIFILM",
+            "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgmweGpH2PPdQDvw4blRFQsm4lssHZFQaQIVqv&s=0",
+            "employer_website": null,
+            "job_publisher": "Indeed",
+            "job_employment_type": "Internship",
+            "job_employment_types": [
+                "INTERN"
+            ],
+            "job_apply_link": "https://ca.indeed.com/viewjob?jk=42679af0a894b575&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+            "job_apply_is_direct": false,
+            "apply_options": [
+                {
+                    "publisher": "Indeed",
+                    "apply_link": "https://ca.indeed.com/viewjob?jk=42679af0a894b575&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Glassdoor",
+                    "apply_link": "https://www.glassdoor.ca/job-listing/software-development-assistant-intern-student-fujifilm-JV_IC2281069_KO0,45_KE46,54.htm?jl=1009556446203&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "FUJIFILM - ICIMS",
+                    "apply_link": "https://canadacareers-fujifilm.icims.com/jobs/32726/software-development-assistant-%E2%80%93-intern-student/job?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": true
+                },
+                {
+                    "publisher": "SimplyHired",
+                    "apply_link": "https://www.simplyhired.ca/job/GFiFoC4ol_lW2N1co8_PPykw0RJPEXfxMqzMs1c4_HW7l2Xf30Q4rQ?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Eluta.ca",
+                    "apply_link": "https://www.eluta.ca/spl/software-development-assistant-%E2%80%93-intern-student-128c21edb71c19b8c7768d54bfa60228?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Monster.ca",
+                    "apply_link": "https://www.monster.ca/job-openings/software-development-assistant-intern-student-toronto-on--77476296-346f-4af6-adca-8de953e60ee4?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Talentify",
+                    "apply_link": "https://www.talentify.io/job/software-development-assistant-internstudent-toronto-ontario-ca-fujifilm-canada-32726?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Jobrapido.com",
+                    "apply_link": "https://ca.jobrapido.com/jobpreview/7284623825210179584?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                }
+            ],
+            "job_description": "Overview:\n\nSoftware Development Assistant \u2013 Intern/Student - Toronto, Ontario, Canada (May 2025; 3-4 months)\n\nFUJILFILM VisualSonics, Inc. VisualSonics is a rapidly growing biomedical company and the world leader in developing high-resolution ultrasound devices for small animal research. VisualSonics offers a pleasant and progressive work environment with a competitive benefits package. We support a strong and dedicated team of individuals who are focused on continually innovating our product offering, servicing our customers, and supporting each other's efforts to sustain our competitive advantage. FUJIFILM VisualSonics Inc. is based in Toronto, Canada.\n\nSummary:\n\nUnder the direction of the Software Developer or Manager, the Software Development Assistant - Intern/Student will be responsible for supporting the corporate wide engineering and quality mandates and will work closely with the Ultrasound Systems software development and other Engineering teams. Key responsibilities include assisting in the development, testing and documentation of the ultrasound system platform software within the software development team, to meet project development deliverables.\n\nEssential Job Functions:\n\u2022 Assist in creating/updating various Ultrasound Systems software deliverables as required by our quality system and the project requirements.\n\u2022 In a timely fashion, report any variances from the target completion date of the tasks, or that the tasks cannot be completed.\n\u2022 Analyze results and defect data to identify problematic areas.\n\u2022 Work effectively in collaboration with staff across the organization.\n\u2022 Other duties as directed by Software Developer or Management.\n\nKnowledge and Experience:\n\u2022 In-process of completing, or just completed, a post-secondary degree in engineering, computer science, physics or a related discipline would be desirable.\n\u2022 Familiarity with C/C++\n\u2022 Familiarity with programming design and algorithm.\n\u2022 Familiarity with C# is an asset.\n\u2022 Familiarity with signal processing is an asset.\n\u2022 Familiarity with ultrasound systems, transducers, or medical devices an asset.\n\nSkills:\n\u2022 Excellent problem-solving skills\n\u2022 Excellent written and oral communication skills\n\u2022 Self-driven, organized and good with time management\n\u2022 Excellent dexterity and coordination for working with miniature devices\n\u2022 Ability to work with hands and perform meticulous tasks with precision\n\u2022 Ability to thrive in a diverse, cross-functional environment\n\u2022 Ability to use MS Office applications for communication and documentation\n\u2022 Ability to lift 25 pounds, with or without accommodations\n\nHourly internship rate: $20.50\n\nFUJIFILM is committed to fair and equitable recruiting practices in accordance with the Accessibility for Ontarians with Disability Act (AODA). Persons with disabilities are encouraged to come forward at any stage of the recruitment process to request accommodations, if needed. Members of our team will consult and create processes that provide individuals with disabilities the best possible recruitment experience.\n\nDisclaimer\n\nThe above information on this job description and specification has been designed to indicate the general nature and level of work performed by employees within this job. It is not designed to contain or be interpreted as a comprehensive inventory of all duties, responsibilities, and qualifications required of employees assigned to this job.",
+            "job_is_remote": false,
+            "job_posted_at": "3 days ago",
+            "job_posted_at_timestamp": 1733529600,
+            "job_posted_at_datetime_utc": "2024-12-07T00:00:00.000Z",
+            "job_location": "Toronto, ON",
+            "job_city": "Toronto",
+            "job_state": "Ontario",
+            "job_country": "CA",
+            "job_latitude": 43.653226,
+            "job_longitude": -79.3831843,
+            "job_benefits": null,
+            "job_google_link": "https://www.google.com/search?q=jobs&gl=ca&hl=en&udm=8#vhid=vt%3D20/docid%3DcgbupGtngu78eKQ3AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+            "job_min_salary": null,
+            "job_max_salary": null,
+            "job_salary_period": "HOUR",
+            "job_highlights": {},
+            "job_onet_soc": "15113100",
+            "job_onet_job_zone": "4"
+        },
+        {
+            "job_id": "8Gxcl8vA5wIvP-g3AAAAAA==",
+            "job_title": "Software Engineer Intern (Toronto) - Summer 2025",
+            "employer_name": "Snowflake",
+            "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsnnPmfD-diy8KAR57cwO5zsakPJAJsgv7TXdB&s=0",
+            "employer_website": "https://www.snowflake.com",
+            "job_publisher": "LinkedIn",
+            "job_employment_type": "Internship",
+            "job_employment_types": [
+                "INTERN"
+            ],
+            "job_apply_link": "https://ca.linkedin.com/jobs/view/software-engineer-intern-toronto-summer-2025-at-snowflake-4055768932?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+            "job_apply_is_direct": false,
+            "apply_options": [
+                {
+                    "publisher": "LinkedIn",
+                    "apply_link": "https://ca.linkedin.com/jobs/view/software-engineer-intern-toronto-summer-2025-at-snowflake-4055768932?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "ZipRecruiter",
+                    "apply_link": "https://www.ziprecruiter.com/c/1001-Sabre-GLBL-Inc./Job/Software-Engineer-2025-Summer-Intern/-in-Dallas,BC?jid=23986d95973d3329&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Huzzle",
+                    "apply_link": "https://www.huzzle.app/internships/software-engineer-intern-toronto-summer-2025-359753?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Simplify Jobs",
+                    "apply_link": "https://simplify.jobs/p/c17e44b5-965e-46e9-b758-0207ba4a1d42/Software-Engineer-Intern?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                }
+            ],
+            "job_description": "Build the future of the AI Data Cloud. Join the Snowflake team.\n\nSnowflake started with a clear vision: develop a cloud data platform that is effective, affordable, and accessible to all data users. Snowflake developed an innovative new product with a built-for-the-cloud architecture that combines the power of data warehousing, the flexibility of big data platforms, and the elasticity of the cloud at a fraction of the cost of traditional solutions. We are now a global, world-class organization with offices in more than a dozen countries and serving many more.\n\nWe\u2019re looking for dedicated students who share our passion for ground-breaking technology and want to create a lasting future for you and Snowflake.\n\nWHAT WE OFFER:\n\u2022 Paid, full-time internships in the heart of the software industry\n\u2022 Post-internship career opportunities (full-time and/or additional internships)\n\u2022 Exposure to a fast-paced, fun and inclusive culture\n\u2022 A chance to work with world-class experts on challenging projects\n\u2022 Opportunity to provide meaningful contributions to a real system used by customers\n\u2022 High level of access to supervisors (manager and mentor), detailed direction without micromanagement, feedback throughout your internship, and a final evaluation\n\u2022 Stuff that matters: treated as a member of the Snowflake team, included in company meetings/activities, flexible hours, casual dress code, accommodations to work from home, swag and much more\n\u2022 When return to office in effect, catered lunches, access to gaming consoles, recreational games, happy hours, company outings, and more\n\nWHAT WE EXPECT:\n\u2022 Desired class level: 3rd/4th year Undergraduates, Masters, or PhD\n\u2022 Desired majors: Computer Science, Computer Engineering, Software Engineering, or related field\n\u2022 Required coursework: algorithms, data structures, and operating systems\n\u2022 Recommended coursework: cloud computing, database systems, distributed systems, and real-time programming\n\u2022 Bonus experience: working experience, research or publications in databases or distributed systems, and contributions to open source\n\u2022 When: Summer 2025 (April - September 2025)\n\u2022 Duration: 12 week minimum, 12-16 weeks recommended\n\u2022 Excellent programming skills in C++ or Java\n\u2022 Knowledge of data structures and algorithms\n\u2022 Strong problem solving and ability to learn quickly in a dynamic environment\n\u2022 Experience with working as a part of a team\n\u2022 Dedication and passion for technology\n\nWHAT YOU WILL LEARN/GAIN:\n\u2022 How to build enterprise grade, reliable, and trustworthy software/services\n\u2022 Exposure to SQL or other database technologies\n\u2022 Understanding of database internals, large-scale data processing, transaction processing, distributed systems, and data warehouse design\n\u2022 Implementation, testing of features in query compilation, compiler design, query execution\n\u2022 Experience working with cloud infrastructure, AWS, Azure, and/or Google Cloud in particular\n\u2022 Learning about cutting edge database technology and research\n\nPOSSIBLE TEAMS/WORK FOCUS AREAS:\n\u2022 Data Applications Infrastructure, Data Marketplace, Data Privacy, Data Sharing\n\u2022 High performance large-scale data processing\n\u2022 Large-scale distributed systems\n\u2022 Software-as-a-Service platform\n\u2022 Software frameworks for stability and performance testing\n\nEvery Snowflake employee is expected to follow the company\u2019s confidentiality and security standards for handling sensitive data. Snowflake employees must abide by the company\u2019s data security plan as an essential part of their duties. It is every employee's duty to keep customer information secure and confidential.\n\nSnowflake is growing fast, and we\u2019re scaling our team to help enable and accelerate our growth. We are looking for people who share our values, challenge ordinary thinking, and push the pace of innovation while building a future for themselves and Snowflake.\n\nHow do you want to make your impact?",
+            "job_is_remote": false,
+            "job_posted_at": "7 days ago",
+            "job_posted_at_timestamp": 1733184000,
+            "job_posted_at_datetime_utc": "2024-12-03T00:00:00.000Z",
+            "job_location": "Canada",
+            "job_city": null,
+            "job_state": null,
+            "job_country": "CA",
+            "job_latitude": 56.130365999999995,
+            "job_longitude": -106.34677099999999,
+            "job_benefits": null,
+            "job_google_link": "https://www.google.com/search?q=jobs&gl=ca&hl=en&udm=8#vhid=vt%3D20/docid%3D8Gxcl8vA5wIvP-g3AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+            "job_salary": null,
+            "job_min_salary": null,
+            "job_max_salary": null,
+            "job_salary_period": null,
+            "job_highlights": {},
+            "job_onet_soc": "15113100",
+            "job_onet_job_zone": "4"
+        },
+        {
+            "job_id": "pbmrP_n0zB2nmabiAAAAAA==",
+            "job_title": "Software Developer Intern, Precision Health Platform",
+            "employer_name": "Verily",
+            "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaXjIUQ6oniyuZVmezqHwiBE19SYn-QyTieBXo&s=0",
+            "employer_website": "https://verily.com",
+            "job_publisher": "Indeed",
+            "job_employment_type": "Full-time",
+            "job_employment_types": [
+                "FULLTIME"
+            ],
+            "job_apply_link": "https://ca.indeed.com/viewjob?jk=1e8ae1549f3e7937&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+            "job_apply_is_direct": true,
+            "apply_options": [
+                {
+                    "publisher": "Indeed",
+                    "apply_link": "https://ca.indeed.com/viewjob?jk=1e8ae1549f3e7937&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": true
+                },
+                {
+                    "publisher": "Glassdoor",
+                    "apply_link": "https://www.glassdoor.ca/job-listing/software-developer-intern-precision-health-platform-verily-JV_IC2280158_KO0,51_KE52,58.htm?jl=1009554977290&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "LinkedIn",
+                    "apply_link": "https://ca.linkedin.com/jobs/view/software-developer-intern-precision-health-platform-at-verily-4091643596?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "SimplyHired",
+                    "apply_link": "https://www.simplyhired.ca/job/zSel92wUZ3MoxCpcX184tiSgyJ6GNMtHcAbReEJ2SbkTYb85CbfAfQ?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Levels.fyi",
+                    "apply_link": "https://www.levels.fyi/jobs?jobId=127739163800675014&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Jobs And Talents In AI, ML, Data Science And Big Data",
+                    "apply_link": "https://aijobs.net/job/851760-software-developer-intern-precision-health-platform/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Talentify",
+                    "apply_link": "https://www.talentify.io/job/software-developer-intern-precision-health-platform-waterloo-ontario-ca-verily-6433520?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Internshippers",
+                    "apply_link": "https://internshippers.com/jobs/abc-xyz-llc/software-developer-intern-precision-health-platform-aNrxTG6Uzi?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                }
+            ],
+            "job_description": "Who We Are\n\nVerily is a subsidiary of Alphabet that is using a data-driven approach to change the way people manage their health and the way healthcare is delivered. Launched from Google X in 2015, our purpose is to bring the promise of precision health to everyone, every day. We are focused on generating and activating data from a variety of sources, including clinical, social, behavioral and the real world, to arrive at the best solutions for a person based on a comprehensive view of the evidence. Our unique expertise and capabilities in technology, data science and healthcare enable the entire healthcare ecosystem to drive better health outcomes.\n\nVerily's internship is a paid 13 week program for rising seniors, either undergraduate or graduate students, who are interested in working at the intersection of technology, data science and healthcare. The program is designed for Computer Science students, and again this year we encourage students who have been historically underrepresented in this field to explore the program, which is a pathway towards full-time employment within Verily. This includes but is not limited to: women, Black/African-American, Latine/Hispanic, Native American, people with disabilities, veterans, and members of the LGBTQ+ community.\n\u2022 *Join us for a unique 13 week internship that will take place May to August 2025\n\nDescription\n\nVerily Canada operates from Google offices in Kitchener-Waterloo and Toronto, and is home to many full-stack software projects. As a member of the Precision Health Platform engineering organization, you will build modular, composable, and interoperable components, supporting both platform modules and user facing applications. These components affect the storage, processing and display of precision health data, as well as other products across Verily.\n\nResponsibilities\n\u2022 Work closely with the development team to design, develop, and deliver new software features across the Verily tech stack.\n\u2022 Come up with ideas to technical design problems, compare options, and propose solutions.\n\u2022 Develop using industry-standard tools including GitHub, Google Cloud, Golang, React, Docker, and Terraform to name a few.\n\nQualifications\nMinimum Qualifications\n\u2022 Currently enrolled in university working towards an Undergrad or Graduate degree in Computer Science or related field.\n\u2022 Authorization to work in Canada.\n\nPreferred Qualifications\n\u2022 Previous internship or demonstrated experience (i.e. personal projects, volunteer projects, etc) in software development.\n\u2022 Experience with one or more general purpose programming languages including but not limited to: Java, C/C++, C#, Objective-C, Go, Python, or JavaScript.\n\u2022 Experience with cloud computing platforms such as GCP or AWS.\n\u2022 Ability to work independently and collaborate effectively.\n\u2022 Academic or professional exposure to healthcare or life sciences, with emphasis on HL7 FHIR.\n\nThe CAD base pay range for this intern position is CAD 40.63-50.48. Our pay ranges are determined by role, education level, experience, and location. The range displayed on each job posting reflects the minimum and maximum target for new hire pay ranges for the position across all Canadian locations. Within the range, individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education or training. Your recruiter can share more about the specific pay range for your preferred location during the hiring process.\n\n#LI-IJ1\n\nWhy Join Us\n\nBuild What's Vital.\n\nAt Verily, you are a part of something bigger. We are a diverse team of builders innovating at the intersection of health and technology\u2014united by a shared spirit of curiosity, resilience and determination to make better health possible for all. This builder mindset means your fingerprints will be on the work that shapes the future of health.\n\nFulfilling our precision health purpose starts with the health of our Veeps, which is why we offer flexibility, resources, and competitive benefits to support you in your whole-person well being.\n\nOur culture reflects the behaviors that stem from living our values every day in how we Innovate Healthcare and Technology, Gain Velocity as One Verily, and Respect Individuals. As One Verily, we uphold our collective accountability to sustain this culture and to create a VIBE (Verily's Culture of Inclusion, Belonging, and Equitability) where all Veeps feel included, a sense of belonging, and have opportunities to grow.\n\nIf this sounds exciting to you, we would love to hear from you.\n\nYou can find out more about our company culture on our LinkedIn Company Page and Verily Careers page.",
+            "job_is_remote": false,
+            "job_posted_at": "4 days ago",
+            "job_posted_at_timestamp": 1733443200,
+            "job_posted_at_datetime_utc": "2024-12-06T00:00:00.000Z",
+            "job_location": "Waterloo, ON",
+            "job_city": "Waterloo",
+            "job_state": "Ontario",
+            "job_country": "CA",
+            "job_latitude": 43.4642578,
+            "job_longitude": -80.5204096,
+            "job_benefits": null,
+            "job_google_link": "https://www.google.com/search?q=jobs&gl=ca&hl=en&udm=8#vhid=vt%3D20/docid%3DpbmrP_n0zB2nmabiAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+            "job_salary": null,
+            "job_min_salary": null,
+            "job_max_salary": null,
+            "job_salary_period": null,
+            "job_highlights": {},
+            "job_onet_soc": "15113200",
+            "job_onet_job_zone": "4"
+        },
+        {
+            "job_id": "02D4AG6CTE7X_UxjAAAAAA==",
+            "job_title": "Software Engineer Intern - Summer 2025",
+            "employer_name": "Electronic Arts (EA)",
+            "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO0P41DXL8scyIsqlWpqW4zk1giKA_hEEXUrfY&s=0",
+            "employer_website": null,
+            "job_publisher": "LinkedIn",
+            "job_employment_type": "Internship",
+            "job_employment_types": [
+                "INTERN"
+            ],
+            "job_apply_link": "https://ca.linkedin.com/jobs/view/software-engineer-intern-summer-2025-at-electronic-arts-ea-4073745717?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+            "job_apply_is_direct": false,
+            "apply_options": [
+                {
+                    "publisher": "LinkedIn",
+                    "apply_link": "https://ca.linkedin.com/jobs/view/software-engineer-intern-summer-2025-at-electronic-arts-ea-4073745717?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                }
+            ],
+            "job_description": "Software Engineer Intern\n\nAt Ripple Effect, we are a studio where you can do the best work of your career. Above all, we\u2019re driven by quality - in the games we create, and in the studio we\u2019ve built.\n\nOur values: We believe every day our work should be better than it was the day before. We iterate, innovate, and support our devs as they grow in their crafts and push one another toward mastery. We believe in operating with integrity, and creating a diverse team where everyone\u2019s ideas are heard.\n\nWith studios located in Los Angeles and Vancouver, Ripple Effect has been dedicated to the Battlefield franchise since our founding as DICE LA in 2013. We created Battlefield 2042\u2019s Portal, and have supported DICE on every Battlefield game since Battlefield 4.\n\nNow, we\u2019re looking for new team members to help us craft the next Battlefield..\n\nWe are looking for a CS student like you with a passion for building exciting game systems and a desire to continue learning. You will be challenged to collaborate with a team of engineers to build game systems, then improve and polish them to perfection. You will get the chance to work with engineers, production, designers and others to help build and improve our game.\n\nThis role will report to an Engineering Line Manager.\n\nWhat We Are Looking For\n\u2022 Working towards BSc in Computer Science, Computer Engineering or equivalent experience\n\u2022 Working knowledge of C++ either through Course Work or Individual Projects\n\u2022 Flexibility and desire to work on a variety of game systems\n\u2022 Able to work closely and iteratively with developers\n\u2022 Great communication skills that supports an open working environment in terms of feedback\n\nWe are only considering students who will be enrolled in an accredited degree program in the summer of 2025, slated to graduate between December 2025 and June 2026. Applicants must be legally authorized to work in CA on a full-time basis during the internship. Visa sponsorship is not available for this position.\n\nCOMPENSATION AND BENEFITS The base salary ranges listed below are for the defined geographic market pay zones in these states. If you reside outside of these locations, a recruiter will advise on the base salary range and benefits for your specific location. EA has listed the hourly pay ranges it in good faith expects to pay applicants for this role in the locations listed, as of the time of this posting. Salary offered will be determined based on numerous relevant business and candidate factors including, for example, degree type (e.g. Bachelor\u2019s, Master\u2019s, PhD), what stage you are in your degree journey (i.e. freshman, sophomore, etc.), qualifications, certifications, experience, skills, geographic location, and business or organizational needs. PAY RANGES\n\u2022 British Columbia (depending on location e.g. Vancouver vs. Victoria)\n\u2022 $65,000 - $70,000 CAD\n\nThe hourly pay is just one part of the overall compensation at EA. We also offer a package of benefits including 80 hours per year of sick time (prorated based on scheduled hours per week if less than full-time), 16 paid company holidays per year, medical insurance, and 401(k). Interns in California are also eligible for Voluntary Disability Insurance.",
+            "job_is_remote": false,
+            "job_posted_at": "5 days ago",
+            "job_posted_at_timestamp": 1733356800,
+            "job_posted_at_datetime_utc": "2024-12-05T00:00:00.000Z",
+            "job_location": "Burnaby, BC",
+            "job_city": "Burnaby",
+            "job_state": "British Columbia",
+            "job_country": "CA",
+            "job_latitude": 49.248809099999995,
+            "job_longitude": -122.9805104,
+            "job_benefits": null,
+            "job_google_link": "https://www.google.com/search?q=jobs&gl=ca&hl=en&udm=8#vhid=vt%3D20/docid%3D02D4AG6CTE7X_UxjAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+            "job_salary": null,
+            "job_min_salary": null,
+            "job_max_salary": null,
+            "job_salary_period": null,
+            "job_highlights": {},
+            "job_onet_soc": "15113200",
+            "job_onet_job_zone": "4"
+        },
+        {
+            "job_id": "qeSRvKE-w5qPlY0sAAAAAA==",
+            "job_title": "Software Engineering Intern - Python Backend and AI Integration",
+            "employer_name": "Crewscope",
+            "employer_logo": null,
+            "employer_website": "https://crewscope.com",
+            "job_publisher": "Indeed",
+            "job_employment_type": "Full-time",
+            "job_employment_types": [
+                "FULLTIME"
+            ],
+            "job_apply_link": "https://ca.indeed.com/viewjob?jk=2534dc9f99e562d0&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+            "job_apply_is_direct": true,
+            "apply_options": [
+                {
+                    "publisher": "Indeed",
+                    "apply_link": "https://ca.indeed.com/viewjob?jk=2534dc9f99e562d0&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": true
+                },
+                {
+                    "publisher": "Glassdoor",
+                    "apply_link": "https://www.glassdoor.ca/job-listing/software-engineering-intern-python-backend-and-ai-integration-crewscope-JV_IC2281069_KO0,61_KE62,71.htm?jl=1009551809126&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": true
+                },
+                {
+                    "publisher": "SimplyHired",
+                    "apply_link": "https://www.simplyhired.ca/job/nlHmJK-5PK8CDZm4ssO7nhCl_6Gi0O58fIXqcCho8iAGdziHFU6woA?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Talent.com",
+                    "apply_link": "https://ca.talent.com/view?id=26dea937bca0&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Recruit.net",
+                    "apply_link": "https://www.recruit.net/job/software-engineering-python-backend-ai-jobs/88B0B87CBA998839?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Jobrapido.com",
+                    "apply_link": "https://ca.jobrapido.com/jobpreview/4036595833137790976?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                }
+            ],
+            "job_description": "About Us\n\nCrewscope is on a mission to solve the labor shortage by improving the connection between workers and work to improve workers' productivity and retention. We provide a software platform to motivate and incentivize field workers in construction and industrial settings. This is done by setting common shared goals, communicating the necessary information, and implementing an objective performance incentive to align motivations. Our solution improves productivity by 10+%, improves forecast accuracy, and improves employee satisfaction and retention. All of that results in a significant increase in profitability and capability to grow for our customers. We are also adding AI-enabled communication and forecasting tools to Crewscope in the upcoming months.\n\nWe are looking for an enthusiastic and energetic software engineering student intern to join our team and help us experiment with new AI-based features, and develop our API-based integrations ecosystem.\n\nWhat You'll Do\n\u2022 Backend Design & Implementation: Design and implement backend services of the software, data storage, and creating a micro-services-based modern enterprise application\n\u2022 AI Integration: Leverage APIs to build AI-based workflows and integrations\n\u2022 QA: Be involved and participate in the overall software development lifecycle, including QA\n\u2022 Build: Build automated tests and create a software development pipeline\n\u2022 Integrations: Create integration between our product and third-party services we leverage\n\u2022 DevOps: Package server application for cloud deployment, either development serverless or deployment on containers.\n\u2022 Documentation: Build high-quality, sustainable code and related documentation.\n\nAbout You \u2013 You will be successful when:\n\u2022 You have a propensity to action and excel in a fast-paced startup environment, adeptly handling multiple tasks and projects.\n\u2022 You bring a high level of personal task management to the table! You can stay on top of your TODOs and timelines in a chaotic and busy startup environment\n\u2022 You have a keen eye for detail and ensure all projects meet the highest standards of quality.\n\u2022 Experience (or course projects) with the development of backend services.\n\u2022 Experience using LLM APIs (ChatGPT, Claude, \u2026) in projects.\n\u2022 Proficient coding in Python or willingness to learn quickly and switch to Python\n\u2022 In-depth knowledge of how APIs and web services work (bonus for serverless and microservices architecture)\n\u2022 Understanding of data models (ORMs) and data storage technologies\n\u2022 Be resourceful in finding ways to get through technical challenges and figuring out ways of getting things done quickly\n\u2022 Sufficient verbal and written communication skills in English, especially in technical areas\n\u2022 You are a final-year student or recent graduate (within the past two years) of an undergraduate or post-graduate diploma program from an accredited university or college in Ontario, Canada, and eligible to work in Canada.\n\nWhat We Offer\n\u2022 This is a paid internship, with a minimum wage of $17.20 CAD/hr (can be slightly higher depending on the candidate's qualifications).\n\u2022 The position is full-time (37.5 hrs/week), but we are flexible if the candidate prefers (4 days/week, i.e. 30 hrs/week). Minimum total is 510 hrs.\n\u2022 The internship is for a minimum of 4 months (1 semester), but we are open to longer internships (2 or 3 semesters).\n\u2022 This is a unique opportunity to have an early seat at the table of a growing startup as we scale.\n\u2022 We will work collaboratively to build and improve our brand in the market using the latest marketing technologies.\n\u2022 We will provide fractional marketing leadership (fractional CMO) support to help guide and support you in your individual development and learning, as well as your role and duties.\n\u2022 We provide flexible remote working accommodation while striving to get together at least once a week to build a strong connection.",
+            "job_is_remote": false,
+            "job_posted_at": "6 days ago",
+            "job_posted_at_timestamp": 1733270400,
+            "job_posted_at_datetime_utc": "2024-12-04T00:00:00.000Z",
+            "job_location": "Toronto, ON",
+            "job_city": "Toronto",
+            "job_state": "Ontario",
+            "job_country": "CA",
+            "job_latitude": 43.653226,
+            "job_longitude": -79.3831843,
+            "job_benefits": null,
+            "job_google_link": "https://www.google.com/search?q=jobs&gl=ca&hl=en&udm=8#vhid=vt%3D20/docid%3DqeSRvKE-w5qPlY0sAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+            "job_min_salary": null,
+            "job_max_salary": null,
+            "job_salary_period": "HOUR",
+            "job_highlights": {},
+            "job_onet_soc": "15111100",
+            "job_onet_job_zone": "5"
+        },
+        {
+            "job_id": "-qPrRBdC3XDseugRAAAAAA==",
+            "job_title": "Software Engineer Intern (Toronto) - Summer 2025",
+            "employer_name": "Snowflake",
+            "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSpLqaY5bhser3M_0CNtOLHRqhfh6VYSZ_gF1p&s=0",
+            "employer_website": "https://www.snowflake.com",
+            "job_publisher": "Snowflake Careers",
+            "job_employment_type": "Internship",
+            "job_employment_types": [
+                "INTERN"
+            ],
+            "job_apply_link": "https://careers.snowflake.com/us/en/job/SNCOUSD38DF19E64C1405CA3A1ADC24F5ADB9EEXTERNALENUS152B293DEC65486289577F50089728AC/Software-Engineer-Intern-Toronto-Summer-2025?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+            "job_apply_is_direct": false,
+            "apply_options": [
+                {
+                    "publisher": "Snowflake Careers",
+                    "apply_link": "https://careers.snowflake.com/us/en/job/SNCOUSD38DF19E64C1405CA3A1ADC24F5ADB9EEXTERNALENUS152B293DEC65486289577F50089728AC/Software-Engineer-Intern-Toronto-Summer-2025?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Glassdoor",
+                    "apply_link": "https://www.glassdoor.ca/job-listing/software-engineer-intern-toronto-summer-2025-snowflake-JV_IC2281069_KO0,44_KE45,54.htm?jl=1009498546341&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Indeed",
+                    "apply_link": "https://ca.indeed.com/viewjob?jk=787d3f1fcf1fec99&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "The Muse",
+                    "apply_link": "https://www.themuse.com/jobs/snowflake/software-engineer-intern-toronto-summer-2025-a5cda2?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "SimplyHired",
+                    "apply_link": "https://www.simplyhired.ca/job/03epF4jmPwDutsVVPTSBYwvGafcV7Cp8aHW7pWqamKBwfK0orMukRw?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Simplify Jobs",
+                    "apply_link": "https://simplify.jobs/p/78a6c258-4ae0-4282-a086-283f6f14250a/Software-Engineer-Intern?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Jobs.weekday.works",
+                    "apply_link": "https://jobs.weekday.works/snowflake-software-engineer-intern-(toronto)---summer-2025?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": true
+                },
+                {
+                    "publisher": "Fairygodboss",
+                    "apply_link": "https://fairygodboss.com/jobs/snowflake/software-engineer-intern-toronto-summer-2025-efdfae4289cc37b5a7956fce8a36b3a8?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                }
+            ],
+            "job_description": "Build the future of the AI Data Cloud. Join the Snowflake team.\n\nSnowflake started with a clear vision: develop a cloud data platform that is effective, affordable, and accessible to all data users. Snowflake developed an innovative new product with a built-for-the-cloud architecture that combines the power of data warehousing, the flexibility of big data platforms, and the elasticity of the cloud at a fraction of the cost of traditional solutions. We are now a global, world-class organization with offices in more than a dozen countries and serving many more.\n\nWe\u2019re looking for dedicated students who share our passion for ground-breaking technology and want to create a lasting future for you and Snowflake.\nWHAT WE OFFER:\n\u2022 Paid, full-time internships in the heart of the software industry\n\u2022 Post-internship career opportunities (full-time and/or additional internships)\n\u2022 Exposure to a fast-paced, fun and inclusive culture\n\u2022 A chance to work with world-class experts on challenging projects\n\u2022 Opportunity to provide meaningful contributions to a real system used by customers\n\u2022 High level of access to supervisors (manager and mentor), detailed direction without micromanagement, feedback throughout your internship, and a final evaluation\n\u2022 Stuff that matters: treated as a member of the Snowflake team, included in company meetings/activities, flexible hours, casual dress code, accommodations to work from home, swag and much more\n\u2022 When return to office in effect, catered lunches, access to gaming consoles, recreational games, happy hours, company outings, and more\n\nWHAT WE EXPECT:\n\u2022 Desired class level: 3rd/4th year Undergraduates, Masters, or PhD\n\u2022 Desired majors: Computer Science, Computer Engineering, Software Engineering, or related field\n\u2022 Required coursework: algorithms, data structures, and operating systems\n\u2022 Recommended coursework: cloud computing, database systems, distributed systems, and real-time programming\n\u2022 Bonus experience: working experience, research or publications in databases or distributed systems, and contributions to open source\n\u2022 When: Summer 2025 (April - September 2025)\n\u2022 Duration: 12 week minimum, 12-16 weeks recommended\n\u2022 Excellent programming skills in C++ or Java\n\u2022 Knowledge of data structures and algorithms\n\u2022 Strong problem solving and ability to learn quickly in a dynamic environment\n\u2022 Experience with working as a part of a team\n\u2022 Dedication and passion for technology\n\nWHAT YOU WILL LEARN/GAIN:\n\u2022 How to build enterprise grade, reliable, and trustworthy software/services\n\u2022 Exposure to SQL or other database technologies\n\u2022 Understanding of database internals, large-scale data processing, transaction processing, distributed systems, and data warehouse design\n\u2022 Implementation, testing of features in query compilation, compiler design, query execution\n\u2022 Experience working with cloud infrastructure, AWS, Azure, and/or Google Cloud in particular\n\u2022 Learning about cutting edge database technology and research\n\nPOSSIBLE TEAMS/WORK FOCUS AREAS:\n\u2022 Data Applications Infrastructure, Data Marketplace, Data Privacy, Data Sharing\n\u2022 High performance large-scale data processing\n\u2022 Large-scale distributed systems\n\u2022 Software-as-a-Service platform\n\u2022 Software frameworks for stability and performance testing\n\nEvery Snowflake employee is expected to follow the company\u2019s confidentiality and security standards for handling sensitive data. Snowflake employees must abide by the company\u2019s data security plan as an essential part of their duties. It is every employee's duty to keep customer information secure and confidential.\n\nSnowflake is growing fast, and we\u2019re scaling our team to help enable and accelerate our growth. We are looking for people who share our values, challenge ordinary thinking, and push the pace of innovation while building a future for themselves and Snowflake.\n\nHow do you want to make your impact?",
+            "job_is_remote": false,
+            "job_posted_at": "1 day ago",
+            "job_posted_at_timestamp": 1733702400,
+            "job_posted_at_datetime_utc": "2024-12-09T00:00:00.000Z",
+            "job_location": "Toronto, ON",
+            "job_city": "Toronto",
+            "job_state": "Ontario",
+            "job_country": "CA",
+            "job_latitude": 43.653226,
+            "job_longitude": -79.3831843,
+            "job_benefits": null,
+            "job_google_link": "https://www.google.com/search?q=jobs&gl=ca&hl=en&udm=8#vhid=vt%3D20/docid%3D-qPrRBdC3XDseugRAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+            "job_salary": null,
+            "job_min_salary": null,
+            "job_max_salary": null,
+            "job_salary_period": null,
+            "job_highlights": {},
+            "job_onet_soc": "15113100",
+            "job_onet_job_zone": "4"
+        },
+        {
+            "job_id": "6sCmjzhma24QHoa6AAAAAA==",
+            "job_title": "Software development intern",
+            "employer_name": "SkyRise Innovations",
+            "employer_logo": null,
+            "employer_website": null,
+            "job_publisher": "Jobs",
+            "job_employment_type": "Full-time",
+            "job_employment_types": [
+                "FULLTIME"
+            ],
+            "job_apply_link": "https://www.hirenowtoday.com/jobs.php?job=Software+development+intern&country=Canada&city=Ottawa&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+            "job_apply_is_direct": false,
+            "apply_options": [
+                {
+                    "publisher": "Jobs",
+                    "apply_link": "https://www.hirenowtoday.com/jobs.php?job=Software+development+intern&country=Canada&city=Ottawa&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                }
+            ],
+            "job_description": "This is your opportunity to join a forward-thinking team at SkyRise Innovations. We are hiring a Software development intern in Ottawa, Canada to lead projects and drive change.\n\nResponsibilities\nThe key duties for this role include:\n\u2022 Debug software issues\n\u2022 Write code for software applications\n\u2022 Assist in development of new features\n\u2022 Providing continuous support and guidance to team members\n\u2022 Monitoring project progress and making necessary adjustments\n\nRequired Skills\nThe most successful candidates will possess the following skills:\n\u2022 Expertise in debugging software\n\u2022 Skilled in coding\n\u2022 And ability to support development projects\n\u2022 Knowledge of industry best practices\n\u2022 Ability to work in cross-functional teams\n\u2022 Adaptability and flexibility\n\nHow to Apply\nIf you\u2019re passionate about making an impact, apply by 09/01.",
+            "job_is_remote": false,
+            "job_posted_at": "1 day ago",
+            "job_posted_at_timestamp": 1733702400,
+            "job_posted_at_datetime_utc": "2024-12-09T00:00:00.000Z",
+            "job_location": "Ottawa, ON",
+            "job_city": "Ottawa",
+            "job_state": "Ontario",
+            "job_country": "CA",
+            "job_latitude": 45.420057199999995,
+            "job_longitude": -75.7003397,
+            "job_benefits": null,
+            "job_google_link": "https://www.google.com/search?q=jobs&gl=ca&hl=en&udm=8#vhid=vt%3D20/docid%3D6sCmjzhma24QHoa6AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+            "job_min_salary": null,
+            "job_max_salary": null,
+            "job_salary_period": "MONTH",
+            "job_highlights": {},
+            "job_onet_soc": "15113200",
+            "job_onet_job_zone": "4"
+        },
+        {
+            "job_id": "AFlFv_6HcvdwXXnyAAAAAA==",
+            "job_title": "Software Engineer Intern",
+            "employer_name": "ResMed",
+            "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRrciy_GSDUmGFVSgE8EAYu3vxlyR57lscB04W&s=0",
+            "employer_website": "https://www.resmed.com",
+            "job_publisher": "Glassdoor",
+            "job_employment_type": "Full-time",
+            "job_employment_types": [
+                "FULLTIME"
+            ],
+            "job_apply_link": "https://www.glassdoor.ca/job-listing/software-engineer-intern-resmed-JV_IC2290928_KO0,24_KE25,31.htm?jl=1009515368811&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+            "job_apply_is_direct": false,
+            "apply_options": [
+                {
+                    "publisher": "Glassdoor",
+                    "apply_link": "https://www.glassdoor.ca/job-listing/software-engineer-intern-resmed-JV_IC2290928_KO0,24_KE25,31.htm?jl=1009515368811&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Eluta.ca",
+                    "apply_link": "https://m.eluta.ca/spl/software-engineer-intern-e2d5227fa87d8c7687c12a4929e41c46?imo=12&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "LinkedIn",
+                    "apply_link": "https://ca.linkedin.com/jobs/view/software-engineer-intern-at-resmed-4069946123?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Learn4Good",
+                    "apply_link": "https://www.learn4good.com/jobs/halifax/canada/info_technology/3723030702/e/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Jooble",
+                    "apply_link": "https://ca.jooble.org/jdp/9177094674186235729?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                }
+            ],
+            "job_description": "Let's Talk About the Team and You\n\nBig ideas and big goals reign at ResMed. You will thrive in an environment filled with self-starters with the drive to make a difference. You will be encouraged within a people-focused culture that motivates and recognizes, so that together, we can produce the best products and results.\n\nResMed is seeking a software engineer to work with a talented development team in our Digital Health Technologies Product development group. The ideal candidate will be a smart, motivated individual seeking an opportunity to work on large scale / high volume web applications writing code that is optimized for high performance, high availability, and scalability. You will work closely with our software developers and contribute to the development and implementation of a variety of internet driven applications for ResMed and our customers. You will be responsible for following policies and procedures and maintaining best practices for the organization\u2019s product environments. You will have strong analysis and design skills.\n\nResponsibilities\n\u2022 Assist in the design, development, implementation, and deployment of AWS cloud solutions.\n\u2022 Assist in the development of high-performance, scalable, and resilient web applications, back-end services, and database solutions.\n\u2022 Assist in providing incident management, change management, application support, monitoring, and Tier 2 support as part of the full cycle team responsibilities.\n\u2022 Pair with senior developers to design software solutions.\n\u2022 Participate in code reviews, following coding standards and best practices, including secure coding guidelines.\n\u2022 Write clear, well commented, and easy to understand code.\n\u2022 All engineers are expected to place a strong emphasis on writing automated tests, including unit tests, integration tests, and end-to-end functional tests.\n\u2022 May be part of an on-call support rotation.\n\u2022 Other tasks and responsibilities as assigned.\n\nSkills\n\u2022 Strong object-oriented design and programming skills.\n\u2022 Excellent verbal and written communication skills.\n\u2022 Experience working with and managing container development, deployment and operations on AWS, specifically with EKS on Fargate.\n\u2022 Experience developing Serverless applications using AWS Lambda, Dynamo DB, SNS, SQS, S3, Amazon API Gateway, OpenSearch.\n\u2022 Experience with Git, GitHub, Confluence, and JIRA is an asset.\n\u2022 Experience with CI/CD tools (e.g. GitHub, CodePipeline) and infrastructure as code tools (e.g. Terraform, CloudFormation) is an asset.\n\u2022 Experience working with, or an understanding of, NoSQL databases and relational databases is an asset.\n\u2022 Experience with test-driven development (TDD) is an asset.\n\u2022 An understanding of 12-factor applications and cloud-native principles is an asset.\n\u2022 Experience with various message brokering architectures (pub/sub queues, request/response) and data streaming is an asset.\n\u2022 AI, Machine Learning, and Data Engineering experience is an asset.\n\u2022 Experience in Java, Python, or C#, targeting multiple platforms (e.g. Windows, Linux) and application types (e.g. console, web site, REST API).\n\u2022 Experience with front-end frameworks (e.g. JavaScript, TypeScript, Node.js, Angular, React) and web servers (e.g. Apache, Nginx, IIS).\n\u2022 Experience with testing frameworks (e.g. Junit, Nunit, PlayWright), and testing tools (e.g. JMeter, Postman, Cucumber)\n\nQualifications and Experience\n\u2022 Completing University Degree or College Diploma in Computer Science or Computer Programming or equivalent experience.\n\nJoining us is more than saying \u201cyes\u201d to making the world a healthier place. It\u2019s discovering a career that\u2019s challenging, supportive and inspiring. Where a culture driven by excellence helps you not only meet your goals, but also create new ones. We focus on creating a diverse and inclusive culture, encouraging individual expression in the workplace and thrive on the innovative ideas this generates. If this sounds like the workplace for you, apply now! We commit to respond to every applicant.",
+            "job_is_remote": false,
+            "job_posted_at": "5 days ago",
+            "job_posted_at_timestamp": 1733356800,
+            "job_posted_at_datetime_utc": "2024-12-05T00:00:00.000Z",
+            "job_location": "Halifax, NS",
+            "job_city": "Halifax Regional Municipality",
+            "job_state": "Nova Scotia",
+            "job_country": "CA",
+            "job_latitude": 44.885708699999995,
+            "job_longitude": -63.100527299999996,
+            "job_benefits": null,
+            "job_google_link": "https://www.google.com/search?q=jobs&gl=ca&hl=en&udm=8#vhid=vt%3D20/docid%3DAFlFv_6HcvdwXXnyAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+            "job_salary": null,
+            "job_min_salary": null,
+            "job_max_salary": null,
+            "job_salary_period": null,
+            "job_highlights": {},
+            "job_onet_soc": "15113200",
+            "job_onet_job_zone": "4"
+        }
+    ]
+}
